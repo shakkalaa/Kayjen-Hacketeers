@@ -17,10 +17,11 @@
 
 ## *How to run the program*
 - This application is hosted on [Github Pages](https://shakkalaa.github.io/Kayjen-Hacketeers/)
+- To run, you will click the link above and it will take you to a website that is mobile and web friendly.
 
 ## *Key Frameworks*
-- Javascript:
-- HTML:
-- CSS:
-- Bootstrap.JS:
-- Animate.css: 
+- JS: Javascript manipulates the DOM to fade in/fade out images and texts on scroll.
+- HTML: HyperText Markup Language gives structure to our application.
+- CSS: Cascading Style Sheets styles the application and makes use of the colors and fonts provided by AT&T.
+  - Bootstrap.JS: Bootstrap is a key front-end framework that utilizes JS, HTML, and CSS to create a functional and internatve application.
+  - Animate.css: Animate is a CSS library that will allow us to use many built-in animations.
