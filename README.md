@@ -11,7 +11,7 @@
 - ### Next steps in the project if continued
 - ### Team Members
   - Shakayla Mosely: A University of New Orleans senior who is striving for a Bachelor's Degree in Computer Science. My github page is [here](https://github.com/shakkalaa) 
-  - Jenny *insert info*
+  - Jenny Spicer:  A rising senior in Computer Science at the University of New Orleans. My github is [here](https://github.com/Jenspi)
   - Jenny Nguyen: I am senior at the University of New Orleans, who is passionate about computer science and medicine. My github is [here](https://github.com/jtnguy97). My portfolio website is [here](https://jtnguy97.github.io/Bootstrap-Portfolio/).
 
 
