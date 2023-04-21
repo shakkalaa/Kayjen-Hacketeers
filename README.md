@@ -1,8 +1,8 @@
 # AT&T EmpowHer Hackathon - Kayjen Hacketeers 
 
-## *Introduction*
+## Introduction
 
-### Inspiration
+### *Inspiration*
 - ### What it does
 - ### How it was built
 - ### Challenges
@@ -15,11 +15,11 @@
   - Jenny Nguyen: I am senior at the University of New Orleans, who is passionate about computer science and medicine. My github is [here](https://github.com/jtnguy97). My portfolio website is [here](https://jtnguy97.github.io/Bootstrap-Portfolio/).
 
 
-## *How to run the program*
+## How to run the program
 - This application is hosted on [Github Pages](https://shakkalaa.github.io/Kayjen-Hacketeers/)
 - To run, you will click the link above and it will take you to a website that is mobile and web friendly.
 
-## *Key Frameworks*
+## Key Frameworks
 - JS: Javascript manipulates the DOM to fade in/fade out images and texts on scroll.
 - HTML: HyperText Markup Language gives structure to our application.
 - CSS: Cascading Style Sheets styles the application and makes use of the colors and fonts provided by AT&T.
