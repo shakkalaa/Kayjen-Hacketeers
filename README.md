@@ -1,6 +1,6 @@
 # AT&T EmpowHer Hackathon - Kayjen Hacketeers 
 
-## **Introduction**
+## *Introduction*
 
 ### Inspiration
 - ### What it does
