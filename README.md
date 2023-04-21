@@ -16,7 +16,7 @@
 
 
 ## *How to run the program*
-- This application is hosted on [Github Pages]insert github page link later
+- This application is hosted on [Github Pages](https://shakkalaa.github.io/Kayjen-Hacketeers/)
 
 ## *Key Frameworks*
 - Javascript:
