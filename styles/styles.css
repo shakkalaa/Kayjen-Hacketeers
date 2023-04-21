@@ -1,0 +1,28 @@
+@font-face{
+    font-family: ATTFont;
+    src: url(../ATTAleckSans_Rg.ttf)
+}
+
+@font-face{
+    font-family: ATTFont2;
+    src: url(../ATTAleckCd_Rg.ttf)
+}
+
+
+.font_test{
+    font-family: ATTFont;
+    color: #009edb;
+}
+
+.font{
+    font-family: ATTFont;
+}
+
+.font2_test{
+    font-family: ATTFont2;
+    color:#009edb;
+}
+
+.font2{
+    font-family: ATTFont2;
+}
