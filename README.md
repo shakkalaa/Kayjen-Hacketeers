@@ -17,7 +17,7 @@
 
 ## How to run the program
 - This application is hosted on [Github Pages](https://shakkalaa.github.io/Kayjen-Hacketeers/)
-- To run, you will click the link above and it will take you to a website that is mobile and web friendly.
+- To run this digital experience, you will click the link above and it will take you to a website that is mobile and web friendly.
 
 ## Key Frameworks
 - JS: Javascript manipulates the DOM to fade in/fade out images and texts on scroll.
