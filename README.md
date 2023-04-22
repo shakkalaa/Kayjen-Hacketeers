@@ -2,7 +2,7 @@
 
 ## Introduction
 
-### *Inspiration*
+### Inspiration
 - ### What it does
    - Is your art application constantly crashing and lagging? Dynamic Sketch is an art application that uses AT&T’s 5G fiber internet services to allow a colorful experience without lag and decreased latency. It also provides a multi-mode that allows people to join servers and draw together on one canvas in real-time!
   
