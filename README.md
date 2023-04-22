@@ -29,7 +29,7 @@
   - Paid subscription for premium features:
     - higher quality uploads/downloads
     - larger capacity channels for collaborating
-more storage
+    - more storage
 
 - ### Team Members
   - Shakayla Mosely: A University of New Orleans senior who is striving for a Bachelor's Degree in Computer Science. My github page is [here](https://github.com/shakkalaa).
