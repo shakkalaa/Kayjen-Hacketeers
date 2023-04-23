@@ -46,4 +46,3 @@
 - HTML: HyperText Markup Language gives structure to our application.
 - CSS: Cascading Style Sheets styles the application and makes use of the colors and fonts provided by AT&T.
   - Bootstrap.JS: Bootstrap is a key front-end framework that utilizes JS, HTML, and CSS to create a functional and internatve application.
-  - Animate.css: Animate is a CSS library that will allow us to use many built-in animations.
