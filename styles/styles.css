@@ -8,21 +8,167 @@
     src: url(../ATTAleckCd_Rg.ttf)
 }
 
-
 .font_test{
     font-family: ATTFont;
     color: #009edb;
+    font-size: 25px;
 }
 
 .font{
     font-family: ATTFont;
+    font-weight: bold;
 }
 
-.font2_test{
-    font-family: ATTFont2;
-    color:#009edb;
+.font_free_premium{
+    font-family: ATTFont;
+    font-size: 20px
 }
 
 .font2{
     font-family: ATTFont2;
+}
+
+.decorate_caption{
+    text-decoration: underline;
+    text-decoration-color: #0057B8;
+}
+
+.navbar-custom{
+    background: black;
+}
+
+footer{
+    background-color: black;
+    padding: 20px;
+}
+
+.footer_font{
+    color: gainsboro;
+    font-family: ATTFont
+}
+
+.where_DS{
+    background: linear-gradient(to right, #0079B1, #009FDB, #00C9FF);
+    padding: 20px;
+}
+
+.where_DS_font{
+    font-family: ATTFont;
+    font-weight: bold;
+    color: white
+}
+
+
+.more_about_button{
+    background: linear-gradient(to right, #0079B1, #009FDB, #00C9FF);
+    color: white;
+    border-radius: 30px;
+    border:none;
+    padding: 18px;
+    font-family: ATTFont2;
+}
+
+.where_button{
+    background: linear-gradient(to right, #0079B1, #009FDB, #00C9FF);
+    color: white;
+    border-radius: 40px;
+    border:none;
+    padding: 18px;
+    font-family: ATTFont2;
+} 
+
+.more_about_button:hover{
+    transform: scale(1.08)}
+
+.where_button:hover{
+    transform: scale(1.08)}
+
+.img_class{
+    max-width: 100%;
+}
+
+.img_font{
+    font-family: ATTFont2;
+    color: white;
+    letter-spacing: 8px;
+    font-size: 50px;
+}
+
+.text_centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.zoom{
+    transition: transform 1.5s;
+}
+
+.zoom:hover{
+    transform: scale(1.08);
+}
+
+.fade_to_right{
+    opacity:0;
+    filter: blur(5px);
+    transition: 4s;
+    transform: translateX(-50%)
+  }
+  
+  .fade_to_left{
+    opacity:0;
+    filter: blur(5px);
+    transition: 4s;
+    transform: translateX(-50%)
+  }
+  
+  .show{
+    opacity: 1;
+    transition: 4s;
+    filter: blur(3);
+    transform: translateX(0);
+  }
+
+.dynamic_sketch_elements{
+   padding: 10px;
+}
+
+.free_premium{
+    padding:20px
+}
+
+
+.gradient_icons{
+    color: transparent;
+    background: linear-gradient(to top, #0079B1, #009FDB, #00C9FF);
+    -webkit-background-clip: text;
+}
+
+
+.gradient_icons_free_premium{
+    color: transparent;
+    background: linear-gradient(to top, #FF585D, #FFB000);
+    -webkit-background-clip: text;
+} 
+
+.gradient_text{
+    color: transparent;
+    background: linear-gradient(to left, #0057B8, #AF29BB);
+    -webkit-background-clip: text;
+    font-size: 35px;
+}
+
+.remove_underline{
+    text-decoration: none;
+}
+
+h3{
+    display: inline;
+    padding: 3px
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+    filter: invert(100%)
 }

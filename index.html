@@ -1,33 +1,224 @@
 <!doctype html>
 <html lang="en">
+    <!--head insert all imports
+        feasibility for mobile and web
+        import stylesheets
+        import bootstrap
+        tab title and favicon
+    -->
     <head>
         <meta charset = "utf-8">
         <meta name = "viewport" content = "width=device-width, initial-scale=1">
-        <link rel = "icon" href="#">
-        <title>at&t fiber/5g</title>
+        <link rel = "icon" href="assets/favicon.png">
+        <title>Dynamic Sketch</title>
         <link href = "styles/styles.css" rel = "stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     </head>
 
-
+    <!--
+        create sections for each navigation anchor tag
+        change background to black
+        use AT&T fonts and colors
+    -->
     <body>
-        <br>
-        <div class = "container d-flex justify-content-center">
-            <div class = "row">
-                <div class = "col">
-                    <h1 class = "font_test">testing at&t font with color</h1>
-                    <h2 class = "font"> i am testing at&t font without color</h2>
-                </div>
+        <section id = "index">
+            <nav class = "navbar navbar-dark fixed-top navbar-expand-md container-fluid" style = "background-color: black;">
+                <a class = "navbar-brand" href = "#index">&emsp;<img class = "logo" src = "assets/favicon.png" width="32px" height="32px"></a>
+    
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-options">
+                    <i class="navbar-toggler-icon"></i></button>
 
-                <div class = "col">
-                    <h1 class = "font2_test">testing at&t font #2 with color</h1>
-                    <h2 class = "font2"> i am testing at&t font #2 without color</h2>
-                </div>
-             </div>
+                    <div class="collapse navbar-collapse" id="navbar-options">
+    
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class= "nav-link " href= "#dynamicSketch"> DYNAMIC SKETCH </a></li>
+                        <li class="nav-item"><a class="nav-link" href= "#consumer"> CONSUMER </a></li>
+                        <li class="nav-item"><a class="nav-link" href= "#community"> COMMUNITY </a></li>
+                        <li class="nav-item"><a class="nav-link" href= "#install"> INSTALL </a></li>
+                    </ul>     
+                </div>       
+            </nav>
+        </section>
+        
+    <!--interactive photo stretched background, zoom on hover, center image and caption, use white AT&T font--> 
+    <div class = "text-center"> <img class = "img_class zoom" src = "assets/art_2.jpg">
+        <div class = "text_centered img_font">Dynamic Sketch</div>
+    </div>
+
+    <!--mission statement, put in small containter, AT&T font, animate.js fade on scroll-->
+        <div class = "text-center font_test container-sm fade_to_right fade_to_left show fade">
+            <br><br><br><br>
+            Our mission is to create an art application that makes the electronic drawing experience more realistic and stimulates the imagination. By encouraging diversity and inclusivity, it benefits the community with creativity from all. Our mission is to make drawing accessible, easy to learn, and collaborative– but faster.
         </div>
 
+        <!-- section 1 for dynamic sketch tab, all centered, bootstrap cards, animate.JS-->
+        <section id = "dynamicSketch" class = "text-center">
+            <br><br><br><br>
+            <h1 class = "font fade_to_right fade_to_left show fade"> What is Dynamic Sketch? </h1>
+            <!--attention grabber with interactive image, use gradients for keywords-->
+            <h3 class = "font_test fade_to_right fade_to_left show fade">Using 5G fiber, we are able to deliver users a</h3> <h3 class = "gradient_text font fade_to_right fade_to_left show fade"> fast</h3> <h3 class = "font_test fade_to_right fade_to_left show fade"> and</h3> <h3 class = "gradient_text font fade_to_right fade_to_left show fade"> colorful</h3> <h3 class = "font_test fade_to_right fade_to_left show fade"> experience.</h3>
+            <br><br> <img class = "zoom"src = "assets/art_3.png" height = "250" width = "450"> <br><br>
+
+            <!--use bootstrap icons for each card, animate.js on scroll for all elements in div, put two items into a row and center them, on hover card-block elements will zoom in-->
+            <!--start container-->
+            <div class = "container">
+                <div class = "row">
+                <div class = "col-md-3 col-sm-6 dynamic_sketch_elements fade_to_right fade_to_left show fade">
+                    <!-- inline style priority to get rid of border on card-->
+                    <div class = "card text-center col" style = "border:none">
+                        <!--create card blocks for each element, zoom on hover, use color gradients for bootstrap icons-->
+                        <div class = "card-block zoom">
+                        <i class="bi bi-person gradient_icons" style = "font-size: 60px"></i>
+                        <h2 class = "card-title mt-2 font2"> Draw solo with cross progression </h2>
+                    </div></div></div>  
+
+                <div class = "col-md-3 col-sm-6 dynamic_sketch_elements fade_to_right fade_to_left show fade">
+                    <div class = "card text-center col" style = "border:none">
+                        <div class = "card-block zoom">
+                        <i class="bi bi-people gradient_icons" style = "font-size: 60px"></i>
+                        <h2 class = "card-title mt-2 font2"> Draw with friends in real-time  </h2>
+                    </div></div> </div> 
+
+                <div class = "col-md-3 col-sm-6 dynamic_sketch_elements fade_to_right fade_to_left show fade">
+                    <div class = "card text-center col" style = "border:none">
+                        <div class = "card-block zoom">
+                        <i class="bi bi-brush gradient_icons" style = "font-size: 60px"></i>
+                        <h2 class = "card-title mt-2 font2"> Learn techniques with in-app tutorials </h2>
+                    </div></div></div> 
+
+                <div class = "col-md-3 col-sm-6 dynamic_sketch_elements fade_to_right fade_to_left show fade">
+                    <div class = "card text-center col" style = "border:none">
+                        <div class = "card-block zoom">
+                            <i class="bi bi-wifi gradient_icons" style = "font-size: 60px"></i>
+                        <h2 class = "card-title mt-2 font2"> Experience less latency by using 5G fiber</h2>
+                    </div></div></div> 
+    </div>
+</div>
+<!--end container-->
+<br><br>
+</section>
+
+<!--section 2 for consumer tab-->
+        <section id = "consumer" class = "text-center">
+            <br><br><br><br>
+            <h1 class = "font fade_to_right fade_to_left show fade" > Why Dynamic Sketch? </h1>
+            
+            <!--div class animate.js on scroll-->
+            <!--start container-->
+            <div class = "container fade_to_right fade_to_left show fade">
+                <div class = "row">
+
+                <div class = "col free_premium show zoom">
+                    <div class = "card text-center col" style = "border:none">
+                        <!--create card blocks for BASE and PREMIUM product, use color gradients for bootstrap icons-->
+                        <div class = "card-block">
+                        <i class="bi bi-bag-plus gradient_icons_free_premium" style = "font-size: 80px"></i>
+                            <h2 class = "card-title mt-2 font2 decorate_caption"> BASE </h2>
+                            <h6 class = "card-title mt-2"> FREE </h6>
+                                <h4><span class = "font_free_premium">&#8227; Draw solo with cross platform progress and cloud saving </span></h4>
+                                <h4><span class = "font_free_premium">&#8227; Experience multi-mode and draw with friends </span></h4>
+                                <h4><span class = "font_free_premium">&#8227; Built-in recorded and live tutorials</span></h4>
+                    </div></div></div>  
+
+                <div class = "col free_premium zoom">
+                    <div class = "card text-center col" style = "border:none">
+                        <div class = "card-block">
+                        <i class= "bi bi-currency-dollar gradient_icons_free_premium" style = "font-size: 80px"></i>
+                            <h2 class = "card-title mt-2 font2 decorate_caption"> PREMIUM</h2>
+                            <h6 class = "card-title mt-2"> BASE INCLUDED</h6>
+                                <h4><span class = "font_free_premium">&#8227; VR Drawing and 3D poses available</span></h4>
+                                <h4><span class = "font_free_premium">&#8227; Higher quality uploads/downloads</span></h4>
+                                <h4><span class = "font_free_premium">&#8227; Access tutorials offline</span></h4>
+                                <h4><span class = "font_free_premium">&#8227; More layers, brush set libraries </span></h4>
+                    </div></div> </div> 
+                </div>
+            </div>
+            <!-- end container-->
+
+        </section>
+
+        <!--section on community, carousel images that represent global services with AT&T's 5g fiber, we're able to communicate with people around the world through art-->
+        <section id = "community" class = "text-center">
+            <br><br><br><br>
+            <!--h1 ATTFont, animate.js on h1 element-->
+            <h1 class = "font fade_to_right fade_to_left show fade" > Community </h1>
+            
+            <!-- create blog carousel, give time increment in ms for automatic sliding-->
+            <div id = "blog-carousel" class = "carousel slide" data-bs-ride = "carousel" data-bs-interval = "3800">
+                <!--carousel indicators v5 update uses buttons, give data, slide to, and make the first target active-->
+                <ol class = "carousel-indicators">
+                    <button type = "button" data-bs-target = "#blog-carousel" data-bs-slide-to="0" class = "active"></button>
+                    <button type = "button" data-bs-target = "#blog-carousel" data-bs-slide-to="1"></button>
+                    <button type = "button"  data-bs-target = "#blog-carousel" data-bs-slide-to="2"></button>
+                </ol>
+                
+                <div class = "carousel-inner text-center"> 
+                    <!--active slide, set dimensions of images, add zoom on hover-->
+                    <div id = "slide-1" class = "carousel-item active text-center"><img class = "zoom" width="470" height="430"  src = "assets/art_4.png"></div>
+                    <div id = "slide-2" class = "carousel-item text-center"><img class = "zoom" width = "470" height="430" src = "assets/art_5.png"></div>
+                    <div id = "slide-3" class = "carousel-item text-center"><img class = "zoom" width = "470" height="430" src = "assets/art_6.png"></div>
+                 </div> 
+
+            <!--user controls to look at pictures, icon controls, change control color to black because white background-->
+                <a class = "carousel-control-prev" href = "#blog-carousel" role = "button" data-bs-slide = "prev"> 
+                    <i class = "carousel-control-prev-icon"></i></a>
+                <a class = "carousel-control-next" href = "#blog-carousel" role = "button" data-bs-slide = "next"> 
+                    <i class = "carousel-control-next-icon"></i></a><br>
+            </div>
+
+            <br><br>
+            <!--description of how Dynamic Sketch serves the consumers and the art community while emphasizing AT&T's 5g fiber services-->
+            <div class = "container-sm">
+                <h4><span class = "font_test">&#8227; Experience multi-mode and draw real-time with friends around the world </span></h4>
+                <h4><span class = "font_test">&#8227; Watch art tutorials from a diverse range of artists </span></h4>
+                <h4><span class = "font_test">&#8227; Showcase your speedpaint videos and high quality illustrations on social media or Dynamic Sketch's art gallery</span></h4>           
+            </div>
+    </section>
+
+        <br><br><br>
+
+    <!--section on install, button that directs to the same website, comming soon button, interactive photo zoom-->
+        <section id = "install" class = "text-center">
+            <br><br>
+            <h1 class = "where_DS where_DS_font fade_to_right fade_to_left show fade" > Where to get Dynamic Sketch? </h1>
+            <div class = "text-center font_test container-sm fade_to_right fade_to_left show fade">
+                <br><img class = "zoom " src = "assets/art_7.jpg" height = "270" width = "460"> <br>
+                <!--attention grabber statement that will persuade customers to install this product-->
+                <br><h3>With with the speed of AT&T's 5G fiber internet, you could bring your studio anywhere you desire<h3><h3 class = "gradient_text font fade_to_right fade_to_left show fade">at the touch of your fingertips</h3><br><br>
+                 <!--button gradiation color, change ATTFONT2, zoom on hover-->
+                <a href = "#" target = "_blank"><button class = "where_button fade_to_right fade_to_left show fade"> <span> COMING SOON </span> </button></a>
+            </div>
+        </section>
+
+
+        <br><br><br>
+
+
+        <!--section on news, button that directs to AT&T's page for more information, interactive photo-->
+        <section id = "news" class = "text-center">
+            <br><br>
+            <h1 class = "font fade_to_right fade_to_left show fade" > News </h1>
+            <br><img class = "zoom" src = "assets/art_8.jpg" height = "270" width = "460"> <br>
+            <br><br>
+            <!--button gradiation color, change ATTFONT2, zoom on hover-->
+            <a href = "https://about.att.com/" target = "_blank"><button class = "more_about_button fade_to_right fade_to_left show fade"> <span> ABOUT AT&T </span> </button></a>
+        </section>
+        <br><br>
+       
+
+<!--footer which includes href to AT&T Hackathon webpage and github src code-->
+        <footer>
+            <small>
+                <div class = "row text-left">
+                    <p class = "col-sm-6"> <a href = "https://inside.att.jobs/empowherhackathon#/subpage/hackathon" target = "_blank" class = "footer_font remove_underline">2023 AT&T EmpowHer Hackathon</a></p>
+                    <p><a href = "https://github.com/shakkalaa/Kayjen-Hacketeers" target = "_blank" class = "footer_font remove_underline"> <i class="bi bi-code-square"></i>&ensp;GitHub Dynamic Sketch Source Code by Kayjen Hacketeers: Jenny Nguyen, Jenny Spicer, and Shakayla Mosely</a></p> 
+                </div>
+            </small>
+        </footer>
+
+    <!--scripts for javascript-->    
+    <script src = "scripts/animate.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     </body>
 </html>
